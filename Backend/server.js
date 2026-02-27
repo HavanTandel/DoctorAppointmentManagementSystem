@@ -92,10 +92,10 @@ app.use("/api/user", userRouter);
 // If using CRA → folder is "build"
 // Change accordingly
 
-app.use(express.static(path.join(__dirname, "../frontend/dist")));
+app.use(express.static(path.join(__dirname, "../Frontend/dist")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/dist", "index.html"));
+  res.sendFile(path.join(__dirname, "../Frontend/dist", "index.html"));
 });
 
 // Error Handling
