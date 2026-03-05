@@ -7,7 +7,7 @@ const About = () => {
       <div>
         <div className="text-center text-2xl pt-10 text-gray-600">
           <p>
-            About <span className="text-gray-700 font-medium">US</span>
+            About Us <span className="text-gray-700 font-medium">US</span>
           </p>
         </div>
 
